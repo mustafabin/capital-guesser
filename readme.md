@@ -43,8 +43,7 @@ few states for testing purposes.
   will make the game a bit more challenging for the user.
 - Provide a welcome message to introduce the player to the game.
 - Through all 50 states, prompt the user to name the capital of the state.
-  - After each prompt, display a message telling the reader how many times the
-    state was answered correctly out of the total number of times answered.
+- Score whether the user's guess is correct or not.
 - Calculate a overall total score, display a running tally after each prompt
 - Once the user has gone through all 50 states, ask them if they'd like to play
   again.
