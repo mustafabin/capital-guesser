@@ -34,21 +34,18 @@ To play the game:
 - After getting through all 50 states one time, users should be asked whether or
   not they want to play again.
 
+**Hint:** It can help to make a copy of the `capitals` list that includes only a
+few states for testing purposes.
+
 ### Game Requirements
 
 - Make sure the states don't appear in alphabetical order in the prompts. This
   will make the game a bit more challenging for the user.
 - Provide a welcome message to introduce the player to the game.
-- Initialize **new** keys in the dictionaries that store the number of times a
-  user gets a capital `correct` and the number of times the answer is
-  `incorrect`.
 - Through all 50 states, prompt the user to name the capital of the state.
-  - If the answer is correct, display a message saying so, and increment the
-    `correct` key.
-  - If the answer is incorrect, display a message saying so, and increment the
-    `incorrect` key.
   - After each prompt, display a message telling the reader how many times the
     state was answered correctly out of the total number of times answered.
+- Calculate a overall total score, display a running tally after each prompt
 - Once the user has gone through all 50 states, ask them if they'd like to play
   again.
 
@@ -62,7 +59,13 @@ To play the game:
 
 ## Bonus!
 
-- Calculate a overall total score, display a running tally for each prompt
+- Initialize **new** keys in the dictionaries that store the number of times a
+  user gets a capital `correct` and the number of times the answer is
+  `incorrect`.
+  - If the answer is correct, display a message saying so, and increment the
+    `correct` key.
+  - If the answer is incorrect, display a message saying so, and increment the
+    `incorrect` key.
 - If the user plays again, set the order of how the prompts appear to start with
   the ones they got wrong the most often.
 - Add a hint functionality that prints the first 3 letters of a capital
