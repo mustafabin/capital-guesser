@@ -46,7 +46,7 @@ few states for testing purposes.
 - Score whether the user's guess is correct or not.
 - Calculate a overall total score, display a running tally after each prompt
 - Once the user has gone through all 50 states, ask them if they'd like to play
-  again.
+  again. (This prompt should happen after every time the game ends)
 
 ### Potentially Useful Python Features
 
