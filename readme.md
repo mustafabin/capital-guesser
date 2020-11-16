@@ -64,7 +64,7 @@ Your final score is 49!
 Would you like to play again? Yes (y) or No (n): y
 Thank you for playing my game! Goodbye!
 ```
-
+**If the player doesn't get any of the capitals correct, the overall score can be a negative number.*
 ### Potentially Useful Python Features
 
 - `print()`
