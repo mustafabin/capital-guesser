@@ -42,7 +42,7 @@ To play the game:
 - Calculate an overall total score, **display a running tally (incorrect and correct answers)** after each prompt
 - Once the user has gone **through all 50 states,** **ask them if they'd like to play again**. (This prompt should happen after every time the game ends).  If the player chooses to play again, **the game must restart with the score reset to zero**. If the player chooses to leave the **program ends**.
 
-### Sample Version of the game
+### Example
 
 Start of the game:
 
